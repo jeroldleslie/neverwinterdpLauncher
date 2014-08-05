@@ -1,0 +1,11 @@
+---
+:sshPrivateKeyPath: ~/.ssh/id_rsa
+:digitalOceanToken: TOKENGOESHERE
+:intnetName: neverwinterDP
+machines:
+- name: queuengin
+  ram: 1GB
+- name: sparkngin
+  ram: 1GB
+- name: demandspike
+  ram: 1GB

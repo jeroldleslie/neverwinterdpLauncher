@@ -4,8 +4,8 @@
 :intnetName: neverwinterDP
 machines:
 - name: queuengin
-  ram: 512MB
+  ram: 1GB
 - name: sparkngin
-  ram: 512MB
+  ram: 1GB
 - name: demandspike
-  ram: 512MB
+  ram: 1GB

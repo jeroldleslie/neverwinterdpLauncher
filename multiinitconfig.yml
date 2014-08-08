@@ -5,7 +5,10 @@
 machines:
 - name: queuengin
   ram: 512MB
+  url: hashicorp/precise32
 - name: sparkngin
   ram: 512MB
+  url: hashicorp/precise32
 - name: demandspike
   ram: 512MB
+  url: hashicorp/precise32

@@ -3,12 +3,7 @@
 :digitalOceanToken: TOKENGOESHERE
 :intnetName: neverwinterDP
 machines:
-- name: queuengin
+- name: generic
   ram: 512MB
-  url: hashicorp/precise32
-- name: sparkngin
+- name: elasticsearch
   ram: 512MB
-  url: hashicorp/precise32
-- name: demandspike
-  ram: 512MB
-  url: hashicorp/precise32

@@ -1,4 +1,11 @@
-neverwinterdp:
-- queuengin
-- sparkngin
-- demandspike
+neverwinterdp:children:
+- generic
+- elasticsearch
+generic:
+- generic
+- elasticsearch
+elasticsearch:
+- elasticsearch
+reboot:children:
+- generic
+- elasticsearch

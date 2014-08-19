@@ -1,11 +1,11 @@
 neverwinterdp:children:
-- generic
-- elasticsearch
+- generic1
+- elasticsearch1
 generic:
-- generic
-- elasticsearch
+- generic1
+- elasticsearch1
 elasticsearch:
-- elasticsearch
+- elasticsearch1
 reboot:children:
-- generic
-- elasticsearch
+- generic1
+- elasticsearch1

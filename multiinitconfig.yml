@@ -3,7 +3,7 @@
 :digitalOceanToken: TOKENGOESHERE
 :intnetName: neverwinterDP
 machines:
-- name: generic
+- name: generic1
   ram: 512MB
-- name: elasticsearch
+- name: elasticsearch1
   ram: 512MB

@@ -1,9 +1,9 @@
 ---
-:sshPrivateKeyPath: ~/.ssh/id_rsa
+:sshPrivateKeyPath: ./DemandCubePlaybooks/roles/teamaccess/files/teamaccess
 :digitalOceanToken: TOKENGOESHERE
 :intnetName: neverwinterDP
 machines:
-- name: generic1
+- name: generic
   ram: 512MB
-- name: elasticsearch1
+- name: elasticsearch
   ram: 512MB

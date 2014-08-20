@@ -20,22 +20,22 @@ git clone https://github.com/DemandCube/Demandspike
 git clone https://github.com/DemandCube/NeverwinterDP
 
 cd NeverwinterDP-Commons
-gradle clean build install
+gradle clean build install -x test
 
 cd ../Queuengin
-gradle clean build install
+gradle clean build install -x test
 
 cd ../Sparkngin
-gradle clean build install
+gradle clean build install -x test
 
 cd ../Scribengin
-gradle clean build install
+gradle clean build install -x test
 
 cd ../Demandspike
-gradle clean build install
+gradle clean build install -x test
 
 cd ../NeverwinterDP
-gradle clean build install release
+gradle clean build install release -x test
 
 cd ../../../../../../
 
